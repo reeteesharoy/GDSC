@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="https://img.icons8.com/avantgarde/100/bird.png">
+  <title>Flappy Bird Game</title>
+</head>
+<body>
+  <div id="holder">
+
+    <div id="modal">
+      <p id="game-title">Flappy Bird Game</p>
+      <span>Fly the bird as far as you can without hitting a wood</span>
+      <button id="start" onclick="startGame()">Start</button>
+      <button id="restart" onclick="window.location.reload(true)">Restart</button>
+    </div>
+
+    <div id="scoreholder">Score: <span id="score">0</span></div>
+
+    <div id="game">
+      <div id="block"></div>
+      <div id="hole"></div>
+
+      <div class="gamestartbg" id="character">
+        <img id="character-image" />
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
